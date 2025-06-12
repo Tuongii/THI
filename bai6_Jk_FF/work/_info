@@ -1,0 +1,154 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TKLS_baitap/THI/bai6_Jk_FF
+T_opt
+!s110 1749564500
+VHfPe<Fd1Hd03NG5OYMd0o0
+04 7 4 work jk_test test 1
+=1-7626f61ae57b-68483c54-5d-5a64
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5;63
+R0
+T_opt1
+!s110 1749564624
+V>kcT[_M_V`NGDNUTaG>D@2
+04 16 4 work jk_flipflop_test test 1
+=1-7626f61ae57b-68483cd0-4c-5e8
+R1
+R2
+n@_opt1
+R3
+Ejk_ff
+Z4 w1749564043
+Z5 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z6 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z9 8D:/TKLS_baitap/THI/bai6_Jk_FF/JK_FF.vhd
+Z10 FD:/TKLS_baitap/THI/bai6_Jk_FF/JK_FF.vhd
+l0
+L6
+V<Di?:PHJTNm5iiI6ebB[c0
+!s100 GPY>WQd3fJmkVn^kANfh53
+Z11 OL;C;10.5;63
+32
+Z12 !s110 1749564609
+!i10b 1
+Z13 !s108 1749564609.000000
+Z14 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai6_Jk_FF/JK_FF.vhd|
+Z15 !s107 D:/TKLS_baitap/THI/bai6_Jk_FF/JK_FF.vhd|
+!i113 0
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Abehaviroral
+R5
+R6
+R7
+R8
+DEx4 work 5 jk_ff 0 22 <Di?:PHJTNm5iiI6ebB[c0
+l18
+L16
+V?@AP^9L?JmRheg6fK1E]b1
+!s100 8>Lc_]eZ0b?OVd@d>:GIe2
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Ejk_flipflop_test
+Z18 w1749564587
+R5
+R6
+R7
+R8
+R0
+Z19 8D:/TKLS_baitap/THI/bai6_Jk_FF/TEST.VHD
+Z20 FD:/TKLS_baitap/THI/bai6_Jk_FF/TEST.VHD
+l0
+L10
+V76mXE>9<77oT7aLLjkhWB0
+!s100 @YFI9ld[OidT>[><chi5o1
+R11
+32
+Z21 !s110 1749564612
+!i10b 1
+Z22 !s108 1749564612.000000
+Z23 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai6_Jk_FF/TEST.VHD|
+Z24 !s107 D:/TKLS_baitap/THI/bai6_Jk_FF/TEST.VHD|
+!i113 0
+R16
+R17
+Atest
+R5
+R6
+R7
+R8
+DEx4 work 16 jk_flipflop_test 0 22 76mXE>9<77oT7aLLjkhWB0
+l30
+L13
+V5kJ;5@Zm]Y?ZVZG_z5=Hm1
+!s100 1CDIJG7lzeC0G9?aiR4VJ3
+R11
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R16
+R17
+Ejk_test
+Z25 w1749564479
+R7
+R8
+R0
+R19
+R20
+l0
+L4
+V2igJG?=A9_I?gVR9fC;_82
+!s100 ^h9Fz>e]87a=Bd^EODT=M3
+R11
+32
+Z26 !s110 1749564497
+!i10b 1
+Z27 !s108 1749564497.000000
+R23
+R24
+!i113 0
+R16
+R17
+Atest
+R7
+R8
+DEx4 work 7 jk_test 0 22 2igJG?=A9_I?gVR9fC;_82
+l21
+L7
+VL1IWcJQGE@T8z;?ho1j5B1
+!s100 mg68z[UhNzSFH4SjnLOiI1
+R11
+32
+R26
+!i10b 1
+R27
+R23
+R24
+!i113 0
+R16
+R17

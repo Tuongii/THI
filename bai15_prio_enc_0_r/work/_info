@@ -1,0 +1,104 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TKLS_baitap/THI/bai15_prio_enc_0
+T_opt
+!s110 1749649168
+VNC=4moSMlVgVNf``Aa=U21
+04 4 8 work test test_enc 1
+=1-9c2f9d945f23-68498710-26b-27dc
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+R0
+Eprio_enc
+Z1 w1749649161
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8D:/TKLS_baitap/THI/bai15_prio_enc_0/prio_enc_0.vhd
+Z8 FD:/TKLS_baitap/THI/bai15_prio_enc_0/prio_enc_0.vhd
+l0
+L5
+VXQgke@;WoTzYjn9J5R::i1
+!s100 EYJ@C3gii4G6eM2:_VQ?G3
+Z9 OL;C;10.5;63
+32
+Z10 !s110 1749649162
+!i10b 1
+Z11 !s108 1749649161.000000
+Z12 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai15_prio_enc_0/prio_enc_0.vhd|
+Z13 !s107 D:/TKLS_baitap/THI/bai15_prio_enc_0/prio_enc_0.vhd|
+!i113 0
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+R4
+R5
+R6
+DEx4 work 8 prio_enc 0 22 XQgke@;WoTzYjn9J5R::i1
+32
+R10
+l15
+L13
+VVfQa<[ZDZ;Q94FhOom7jO0
+!s100 dOaPXI?RzR9=DHE?=Nj6f2
+R9
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Etest
+Z16 w1749649076
+R5
+R6
+R0
+Z17 8D:/TKLS_baitap/THI/bai15_prio_enc_0/test.vhd
+Z18 FD:/TKLS_baitap/THI/bai15_prio_enc_0/test.vhd
+l0
+L4
+V?S^=9QTP<`@HG3^LfgY2^1
+!s100 L@aSM3N:dZ<1VVU3FKV_V3
+R9
+32
+Z19 !s110 1749649164
+!i10b 1
+Z20 !s108 1749649164.000000
+Z21 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai15_prio_enc_0/test.vhd|
+Z22 !s107 D:/TKLS_baitap/THI/bai15_prio_enc_0/test.vhd|
+!i113 0
+R14
+R15
+Atest_enc
+R5
+R6
+DEx4 work 4 test 0 22 ?S^=9QTP<`@HG3^LfgY2^1
+32
+R19
+l20
+L7
+Vza_MjeXjodWI0iVWM_IhX2
+!s100 gm>jLAcPJ[nG==`_EfoR`3
+R9
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R14
+R15

@@ -1,0 +1,33 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;'
+use ieee.numeric_std.all; -- Dùng để chuyển integer sang std_logic_vector
+entity prio_enc is
+    port(
+        i_vector : in std_logic_vector(7 downto 0);
+        pos : out std_logic_vector(2 downto 0);
+        found : out std_logic
+    );
+end entity prio_enc;
+
+architecture behavior of prio_enc is
+    signal pos_temp : std_logic_vector(2 downto 0) := "000";
+begin
+    process(i_vector)
+    variable i : integer;
+    begin
+        if i_vector = "11111111" then
+            pos_temp <= "XXX";
+            found <= '0';
+        else
+            found <= '1';
+            for i in 0 to 7 loop
+                if i_vector(i) = '0' then
+                    pos_temp <= std_logic_vector(to_unsigned(i,3));
+                    exit; -- Exit the loop once the first '0' is found
+                end if;     
+            end loop;
+        end if;
+    end process;
+    pos <= pos_temp;
+end architecture behavior;

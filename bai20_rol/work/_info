@@ -1,0 +1,99 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TKLS_baitap/THI/bai20_rol
+T_opt
+!s110 1749659178
+VnGlLa8a2ZSJ[9Y:C9Y=Li1
+04 4 7 work test test_th 1
+=1-a288cf3089ae-6849ae2a-277-c08
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+Erol_c
+Z1 w1749658919
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/TKLS_baitap/THI/bai20_rol/rol.vhd
+Z6 FD:/TKLS_baitap/THI/bai20_rol/rol.vhd
+l0
+L5
+VNTO1nfOiKRZc<lfgn1PXW2
+!s100 8aO:OQVf2zglm^OYcb8AW1
+Z7 OL;C;10.5;63
+32
+Z8 !s110 1749659170
+!i10b 1
+Z9 !s108 1749659170.000000
+Z10 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai20_rol/rol.vhd|
+Z11 !s107 D:/TKLS_baitap/THI/bai20_rol/rol.vhd|
+!i113 0
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+R4
+DEx4 work 5 rol_c 0 22 NTO1nfOiKRZc<lfgn1PXW2
+l15
+L14
+VV1i8o00NN]_aRW56o_ljN0
+!s100 :BJ5X6zaN9^iQBO0Sz=NT1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Etest
+Z14 w1749658927
+R3
+R4
+R0
+Z15 8D:/TKLS_baitap/THI/bai20_rol/test.vhd
+Z16 FD:/TKLS_baitap/THI/bai20_rol/test.vhd
+l0
+L4
+V@[MXV11lH8Pg>;IU9>c;[0
+!s100 Y>9^9^GdDAbfeAn=:ZCh21
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai20_rol/test.vhd|
+Z18 !s107 D:/TKLS_baitap/THI/bai20_rol/test.vhd|
+!i113 0
+R12
+R13
+Atest_th
+R3
+R4
+DEx4 work 4 test 0 22 @[MXV11lH8Pg>;IU9>c;[0
+l20
+L7
+VbT2?6FZV@c=cgSY_PLF3H0
+!s100 IF2V]jPG3B=H2JE9P?3gm2
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+R13

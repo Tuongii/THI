@@ -1,0 +1,103 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TKLS_baitap/THI/bai8_shift_right_reg
+T_opt
+!s110 1749604851
+VC4>lB1hX5_zlc1E6FWN2K0
+04 12 4 work shr_reg_test test 1
+=1-7626f61ae57b-6848d9f3-15e-3ba4
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+Eshr_reg
+Z1 w1749604744
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8D:/TKLS_baitap/THI/bai8_shift_right_reg/shr_reg.vhd
+Z8 FD:/TKLS_baitap/THI/bai8_shift_right_reg/shr_reg.vhd
+l0
+L6
+VcPkBo@0:d6Ac;gElgHg2^0
+!s100 L;VNh26M[XQ0OSQ@YCHI>1
+Z9 OL;C;10.5;63
+32
+Z10 !s110 1749604749
+!i10b 1
+Z11 !s108 1749604749.000000
+Z12 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai8_shift_right_reg/shr_reg.vhd|
+Z13 !s107 D:/TKLS_baitap/THI/bai8_shift_right_reg/shr_reg.vhd|
+!i113 0
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 7 shr_reg 0 22 cPkBo@0:d6Ac;gElgHg2^0
+l19
+L16
+V9eJnP>CK346JB[mckHEO;2
+!s100 mfo>eU^65E^Db1715b`3C2
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eshr_reg_test
+Z16 w1749604842
+R5
+R6
+R0
+Z17 8D:/TKLS_baitap/THI/bai8_shift_right_reg/shr_reg_test.vhd
+Z18 FD:/TKLS_baitap/THI/bai8_shift_right_reg/shr_reg_test.vhd
+l0
+L4
+VATQ=YAMTbbSigP=Yhl[n?0
+!s100 WC969[U8@ID]3ejW;9mef3
+R9
+32
+Z19 !s110 1749604845
+!i10b 1
+Z20 !s108 1749604845.000000
+Z21 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai8_shift_right_reg/shr_reg_test.vhd|
+Z22 !s107 D:/TKLS_baitap/THI/bai8_shift_right_reg/shr_reg_test.vhd|
+!i113 0
+R14
+R15
+Atest
+R5
+R6
+DEx4 work 12 shr_reg_test 0 22 ATQ=YAMTbbSigP=Yhl[n?0
+l24
+L7
+VTfKPD4Al=24HB[[kBi<VT1
+!s100 VAO?_g9`a@QUH1BF2:DWF2
+R9
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R14
+R15
