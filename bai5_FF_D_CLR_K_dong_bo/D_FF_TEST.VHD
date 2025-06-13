@@ -35,20 +35,21 @@
         END PROCESS;
 
 
-            create_input: process
-                begin
-                    SET <= '0'; CLR <= '0';
-                    wait for 13 ns;
-	------------------------
-                    SET <= '1'; CLR <= '0';
-                    wait for 13 ns;
-	------------------------
-                    SET <= '1'; CLR <= '1'; D <= '1';
-                    wait for 13 ns;
-	------------------------
-                    D <= '0';
-                    wait for 13 ns;
-            end process create_input;
+create_input: process
+begin
+    SET <= '0'; CLR <= '0';
+    wait for 13 ns;
+------------------------
+    SET <= '1'; CLR <= '0';
+    wait for 13 ns;
+------------------------
+    SET <= '1'; CLR <= '1'; D <= '1';
+    wait for 13 ns;
+------------------------
+    D <= '0';
+    wait for 13 ns;
+end process create_input;
+
         DUT: COMPONENT D_FF
             PORT MAP(
                 SET => SET,

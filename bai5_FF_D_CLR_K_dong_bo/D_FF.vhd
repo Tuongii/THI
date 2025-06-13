@@ -16,20 +16,17 @@
 	ARCHITECTURE BEHAVIORAL OF D_FF IS 
 		SIGNAL Q1 : STD_LOGIC;
 		BEGIN 
-			PROCESS(CLK,SET,CLR,D)
-				BEGIN
-					IF SET ='0' AND CLR ='1' THEN Q1 <='1';
-					ELSIF SET='1' AND CLR ='1' THEN Q1 <='0';
-					ELSIF SET ='1' AND CLR ='1' THEN
-						IF RISING_EDGE(CLK) THEN
-							IF D='1' THEN Q1 <='1';
-							ELSIF D ='0' THEN Q1 <='0';
-							END IF;
-						END IF;
-					END IF;
-			END PROCESS;
+			PROCESS(CLK, SET, CLR, D)
+	BEGIN
+    IF SET = '0' THEN
+        Q1 <= '1';
+    ELSIF CLR = '0' THEN
+        Q1 <= '0';
+    ELSIF rising_edge(CLK) THEN
+        Q1 <= D;
+	END IF;
 			Q <= Q1;
 			NQ <= NOT Q1;
-
+	END PROCESS;
 	END BEHAVIORAL;
 			

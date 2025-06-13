@@ -13,25 +13,31 @@ entity JK_FF is
     );
 END entity;
 
-architecture behaviroral of JK_FF is
+architecture behavioral of JK_FF is
     signal Q1 : std_logic;
+begin
+    process(CLK, SET, CLR)
     begin
-        process(J,K,CLK,SET,CLR)
-            begin
-                IF CLR='1' THEN Q1 <= '0';
-                ELSIF SET ='1' THEN Q1 <= '1';
-                ELSIF CLR = '0' AND SET ='0' THEN
-                    IF falling_EDGE(CLK) THEN
-                        IF J ='1' AND K = '0' THEN Q1 <= '1';
-                        ELSIF J ='0' AND K = '1' THEN Q1 <= '0';
-                        ELSIF J ='1' AND K = '1' THEN Q1 <= NOT Q1;
-                        END IF;
-                    END IF;
-                END IF;
-        END PROCESS;
-        Q <= Q1 ;
-        NQ <= NOT Q1;
-END behaviroral;
+        if CLR = '0' then
+            Q1 <= '0';
+        elsif SET = '0' then
+            Q1 <= '1';
+        elsif rising_edge(CLK) then
+            if J = '0' and K = '0' then
+                Q1 <= Q1;          -- Giữ nguyên trạng thái
+            elsif J = '0' and K = '1' then
+                Q1 <= '0';         -- Reset
+            elsif J = '1' and K = '0' then
+                Q1 <= '1';         -- Set
+            elsif J = '1' and K = '1' then
+                Q1 <= not Q1;      -- Toggle (đảo trạng thái)
+            end if;
+        end if;
+    end process;
+    Q  <= Q1;
+    NQ <= not Q1;
+end behavioral;
+
 
 
 
