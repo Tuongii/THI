@@ -22,7 +22,7 @@ architecture behavioral of adder_sub is
 	signal Sum_temp : std_logic_vector(4 downto 0);
 		begin 
 			Cin_temp <= Sub or Cin;
-			
+			--chọn MUX
 			MUX: process(B,Sub)
 				begin 
 					if Sub ='1' then 
@@ -30,7 +30,7 @@ architecture behavioral of adder_sub is
 					else  B1_temp <= B;
 					end if;
 				end process MUX;
-				
+				--mở rộng 5  bit tránh tràn 
 			A_temp <= '0' & A;
 			B2_temp <= '0' & B1_temp;
 			Sum_temp<= A_temp + B2_temp +Cin_temp;
