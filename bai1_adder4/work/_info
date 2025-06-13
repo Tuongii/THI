@@ -8,114 +8,129 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/TKLS_baitap/THI/bai1_adder4
+T_opt
+!s110 1749806050
+Vz=^YjA]Ug2kSa7^;TdgX42
+04 11 4 work adder4_test test 1
+=1-9c2f9d945f23-684bebe2-336-1240
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5;63
 Eadder4
-Z1 w1746492951
+Z1 w1749806027
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z4 8adder4.vhd
-Z5 Fadder4.vhd
+Z4 8D:/TKLS_baitap/THI/bai1_adder4/adder4.vhd
+Z5 FD:/TKLS_baitap/THI/bai1_adder4/adder4.vhd
 l0
-L4
-VHjbSNYla?NoRM`ceZ;23b0
-!s100 X7^PZi[`G648RagDEGX?<0
+L8
+ViQEg=G6?Rc7^1^E^d[3ED3
+!s100 BY8Vb^Zj1QKm`Q0SJG9QL3
 Z6 OL;C;10.5;63
 32
-Z7 !s110 1746493680
+Z7 !s110 1749806047
 !i10b 1
-Z8 !s108 1746493680.000000
-Z9 !s90 -reportprogress|300|adder4.vhd|
-Z10 !s107 adder4.vhd|
+Z8 !s108 1749806047.000000
+Z9 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai1_adder4/adder4.vhd|
+Z10 !s107 D:/TKLS_baitap/THI/bai1_adder4/adder4.vhd|
 !i113 0
-Z11 tExplicit 1 CvgOpt 0
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
 Adataflow
 R2
 R3
-DEx4 work 6 adder4 0 22 HjbSNYla?NoRM`ceZ;23b0
+DEx4 work 6 adder4 0 22 iQEg=G6?Rc7^1^E^d[3ED3
+l25
+L16
+Vg@EL0LOgnPGL_DK@[Wa_?3
+!s100 XP7<bP;jGWX8Re41aR;R^2
+R6
 32
 R7
-l25
-L14
-VFKZ7YzTPMH[mMfnDOR4XF1
-!s100 I0mdoLI2nl>PGTCezn]_71
-R6
 !i10b 1
 R8
 R9
 R10
 !i113 0
 R11
+R12
 Eadder4_test
-Z12 w1746493645
+Z13 w1749806035
 R2
 R3
 R0
-Z13 8adder4_test.vhd
-Z14 Fadder4_test.vhd
+Z14 8D:/TKLS_baitap/THI/bai1_adder4/adder4_test.vhd
+Z15 FD:/TKLS_baitap/THI/bai1_adder4/adder4_test.vhd
 l0
-L4
-VWKR6>Z6<H?oWNzH>4ZL7S3
-!s100 S<iSfFd9gc:EbVcYok[NY3
+L8
+V>Y9hJjPmJ_`WIh?56DNEi0
+!s100 =8P>liIVnYAH3oE_nghde2
 R6
 32
 R7
 !i10b 1
 R8
-Z15 !s90 -reportprogress|300|adder4_test.vhd|
-Z16 !s107 adder4_test.vhd|
+Z16 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai1_adder4/adder4_test.vhd|
+Z17 !s107 D:/TKLS_baitap/THI/bai1_adder4/adder4_test.vhd|
 !i113 0
 R11
+R12
 Atest
 R2
 R3
-DEx4 work 11 adder4_test 0 22 WKR6>Z6<H?oWNzH>4ZL7S3
+DEx4 work 11 adder4_test 0 22 >Y9hJjPmJ_`WIh?56DNEi0
+l24
+L11
+V=DScO;^L7@f`=:N@aQfA60
+!s100 I7:DTY]<a9Z040g2FZCnK1
+R6
 32
 R7
-l24
-L7
-Vm8^=kz0V1`Nk8GchSF6]m1
-!s100 97GVZ@mL5A<I3QVGD1Ca31
-R6
 !i10b 1
 R8
-R15
 R16
+R17
 !i113 0
 R11
+R12
 Efull_adder
-Z17 w1746492917
+Z18 w1749805873
 R2
 R3
 R0
-Z18 8full_adder.vhd
-Z19 Ffull_adder.vhd
+Z19 8D:/TKLS_baitap/THI/bai1_adder4/full_adder.vhd
+Z20 FD:/TKLS_baitap/THI/bai1_adder4/full_adder.vhd
 l0
 L4
-VSl9BLnT1V2Ki9P@P22M7H1
+VLW?cKPQbHjoi10b8E6Ee73
 !s100 =375=VgN5I8Zk[oU?VEV93
 R6
 32
 R7
 !i10b 1
 R8
-Z20 !s90 -reportprogress|300|full_adder.vhd|
-Z21 !s107 full_adder.vhd|
+Z21 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai1_adder4/full_adder.vhd|
+Z22 !s107 D:/TKLS_baitap/THI/bai1_adder4/full_adder.vhd|
 !i113 0
 R11
+R12
 Adataflow
 R2
 R3
-DEx4 work 10 full_adder 0 22 Sl9BLnT1V2Ki9P@P22M7H1
-32
-R7
+DEx4 work 10 full_adder 0 22 LW?cKPQbHjoi10b8E6Ee73
 l15
 L14
-VYj32OTP=DHKk`1z45`gFN3
+V3MTK@h4XV2mhWjS5XF<ZK2
 !s100 2RKiJiCodIo2H]]X;hAZ[2
 R6
+32
+R7
 !i10b 1
 R8
-R20
 R21
+R22
 !i113 0
 R11
+R12

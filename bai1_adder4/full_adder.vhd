@@ -16,4 +16,3 @@ architecture dataflow of full_adder is
 		S 	<= A xor B xor Cin;
 		Cout <= (A and B) or (Cin and ( A or B));
 	end dataflow;
-end full_adder;
