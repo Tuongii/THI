@@ -9,20 +9,20 @@ entity ror_c is
         sh_out : out std_logic_vector(7 downto 0)
     );
 end entity ror_c;
-
-architecture behavior of ror_c is
-begin 
-    process(sh_in, sh_val)
-        variable temp : std_logic_vector( 7 downto 0);
-        variable n : integer;
-        begin
-            n := to_integer(unsigned(sh_val));--dịch 3 bit n =3
-            for i in 0 to 7 loop
-                temp(i) := sh_in((i + n) mod 8);
-            end loop;
-            sh_out <= temp;
-    end process;
-end architecture behavior;
+--Cách 1
+-- architecture behavior of ror_c is
+-- begin 
+--     process(sh_in, sh_val)
+--         variable temp : std_logic_vector( 7 downto 0);
+--         variable n : integer;
+--         begin
+--             n := to_integer(unsigned(sh_val));--dịch 3 bit n =3
+--             for i in 0 to 7 loop
+--                 temp(i) := sh_in((i + n) mod 8);
+--             end loop;
+--             sh_out <= temp;
+--     end process;
+-- end architecture behavior;
 
 
                 -- Dịch vòng tròn, nếu i+n > 7 thì lấy phần dư của phép chia cho 8
@@ -34,12 +34,16 @@ end architecture behavior;
 
 ---------------------------------------
 --Cách 2
---     architecture behavior of ror_c is
--- begin 
---     process(sh_in, sh_val)
---         variable n : integer;
---     begin
---         n := to_integer(unsigned(sh_val));
---         sh_out <= sh_in(n-1 downto 0) & sh_in(7 downto n);  -- dịch phải n bit
---     end process;
--- end architecture behavior;
+    architecture behavior of ror_c is
+begin
+    process(sh_in, sh_val)
+        variable n : integer;
+    begin
+        n := to_integer(unsigned(sh_val));
+        if n = 0 then
+            sh_out <= sh_in; -- không dịch gì cả
+        else
+            sh_out <= sh_in(n-1 downto 0) & sh_in(7 downto n); -- dịch vòng phải n bit
+        end if;
+    end process;
+end architecture behavior;

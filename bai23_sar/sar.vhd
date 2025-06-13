@@ -10,7 +10,7 @@ entity sar_c is
     );
 
 end entity sar_c;
-
+--Cách 1
 architecture behavior of sar_c is
 begin
     process(sh_in, sh_val)
@@ -28,3 +28,17 @@ begin
         sh_out <= temp;
     end process;
 end architecture behavior;
+
+--cách 2
+-- process(sh_in, sh_val)
+--     variable n : integer;
+-- begin
+--     n := to_integer(unsigned(sh_val));
+--     if n = 0 then
+--         sh_out <= sh_in;
+--     elsif n < 8 then
+--         sh_out <= sh_in(7 downto n) & (others => sh_in(7))(n-1 downto 0);
+--     else
+--         sh_out <= (others => sh_in(7));
+--     end if;
+-- end process;

@@ -10,7 +10,7 @@ entity rol_c is
         
     );
 end entity rol_c;
-
+--cách 1
 architecture behavior of rol_c is
 begin 
     process(sh_in,sh_val)
@@ -30,3 +30,18 @@ end architecture behavior;
                 --ví dụ: nếu n=3 và i=0 thì temp(0) = sh_in(3)
                 --nếu n=3 và i=7 thì temp(7) = sh_in(2)
                 --nếu n=3 và i=8 thì temp(0) = sh_in(3)
+
+--Cách 2
+--     architecture behavior of ror_c is
+-- begin
+--     process(sh_in, sh_val)
+--         variable n : integer;
+--     begin
+--         n := to_integer(unsigned(sh_val));
+--         if n = 0 then
+--             sh_out <= sh_in; -- không dịch gì cả
+--         else
+--             sh_out <= sh_in(7 - n downto 0) & sh_in(7 downto 8-n); -- dịch vòng phải n bit
+--         end if;
+--     end process;
+-- end architecture behavior;

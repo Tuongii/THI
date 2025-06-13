@@ -9,7 +9,7 @@ entity sll_c is
         Sh_out : out std_logic_vector(7 downto 0)
     );
 end sll_c;
-
+--cách 1
 architecture Behavioral of sll_c is
 begin
     process(Sh_in, Sh_val)
@@ -29,3 +29,19 @@ begin
         Sh_out <= temp;
     end process;
 end Behavioral;
+--cách 2
+-- architecture Behavioral of sll_c is
+-- begin
+--     process(Sh_in, Sh_val)
+--         variable n : integer;
+--     begin
+--         n := to_integer(unsigned(Sh_val));
+--         if n = 0 then
+--             Sh_out <= Sh_in;
+--         elsif n < 8 then
+--             Sh_out <= Sh_in(7-n downto 0) & (others => '0')(n-1 downto 0);
+--         else
+--             Sh_out <= (others => '0');
+--         end if;
+--     end process;
+-- end Behavioral;
