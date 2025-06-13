@@ -32,9 +32,14 @@ end architecture behavior;
                 --nếu n=3 và i=8 thì temp(0) = sh_in(3)
 
 
-                --variable temp : unsigned(7 downto 0);
-        --variable n : integer;
-    --begin
-        --n := to_integer(unsigned(sh_val));
-        --temp := ror(unsigned(sh_in), n);             -- temp l� unsigned!
-    -- sh_out <= std_logic_vector(temp);            -- xu?t l?i ki?u std_logic_vector///
+---------------------------------------
+--Cách 2
+--     architecture behavior of ror_c is
+-- begin 
+--     process(sh_in, sh_val)
+--         variable n : integer;
+--     begin
+--         n := to_integer(unsigned(sh_val));
+--         sh_out <= sh_in(n-1 downto 0) & sh_in(7 downto n);  -- dịch phải n bit
+--     end process;
+-- end architecture behavior;
