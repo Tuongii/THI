@@ -9,15 +9,14 @@ z2
 cModel Technology
 Z0 dD:/TKLS_baitap/THI/bai7_shift_left_reg
 T_opt
-!s110 1749573079
-VH;FI3odZkg19?ekmD>RG91
+!s110 1749836593
+VR5;a5D`]VEWV;9o]?8M5C0
 04 12 4 work shl_reg_test test 1
-=2-7626f61ae57b-68485dd7-f1-5214
+=1-a288cf3089ae-684c6331-13c-254c
 o-quiet -auto_acc_if_foreign -work work
 tCvgOpt 0
 n@_opt
 OL;O;10.5;63
-R0
 Eshl_reg
 Z1 w1749573059
 Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
@@ -34,9 +33,9 @@ V0g7aGoRHE8ne9i]dS@S8a2
 !s100 Sfo<`Z;`VH@gCE1=IG:Oi1
 Z9 OL;C;10.5;63
 32
-Z10 !s110 1749573112
+Z10 !s110 1749836589
 !i10b 1
-Z11 !s108 1749573112.000000
+Z11 !s108 1749836589.000000
 Z12 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai7_shift_left_reg/shl_reg.vhd|
 Z13 !s107 D:/TKLS_baitap/THI/bai7_shift_left_reg/shl_reg.vhd|
 !i113 0
@@ -64,18 +63,16 @@ R13
 R14
 R15
 Eshl_reg_test
-Z16 w1749572668
-R3
-R4
+Z16 w1749836566
 R5
 R6
 R0
 Z17 8D:/TKLS_baitap/THI/bai7_shift_left_reg/shl_reg_test.vhd
 Z18 FD:/TKLS_baitap/THI/bai7_shift_left_reg/shl_reg_test.vhd
 l0
-L6
-V<@UhMm6zj>Qm=[47m0nj;2
-!s100 4G6IBU:o;Vm7fbSVo>1BB3
+L4
+VcNX<[b59k?M]`;[734mX01
+!s100 f3HDKPMSknN:K?lZ<X@@>3
 R9
 32
 R10
@@ -87,15 +84,13 @@ Z20 !s107 D:/TKLS_baitap/THI/bai7_shift_left_reg/shl_reg_test.vhd|
 R14
 R15
 Atest
-R3
-R4
 R5
 R6
-Z21 DEx4 work 12 shl_reg_test 0 22 <@UhMm6zj>Qm=[47m0nj;2
-l26
-L9
-Z22 V@C2S5H2^fiQiR6][FZ]6>1
-Z23 !s100 5o^_dNg?12cFE36HHhE[V3
+DEx4 work 12 shl_reg_test 0 22 cNX<[b59k?M]`;[734mX01
+l24
+L7
+VU`edg8G9QOKV3aJ2?^Al]2
+!s100 6I^=f:QzM_MPa0A:VS6eH3
 R9
 32
 R10

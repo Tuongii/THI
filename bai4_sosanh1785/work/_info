@@ -7,7 +7,7 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/TKLS_baitap/THI/bai3_sosanh1785
+Z0 dD:/TKLS_baitap/THI/bai3_sosanh1785
 T_opt
 !s110 1749806839
 VZigVV;^_PVP8@aL^?Bzen3
@@ -17,87 +17,84 @@ o-quiet -auto_acc_if_foreign -work work
 tCvgOpt 0
 n@_opt
 OL;O;10.5;63
+R0
 Esosanh7485
-Z0 w1749806814
-Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z4 dD:/TKLS_baitap/THI/bai4_sosanh1785
-Z5 8D:/TKLS_baitap/THI/bai4_sosanh1785/sosanh7485.vhd
-Z6 FD:/TKLS_baitap/THI/bai4_sosanh1785/sosanh7485.vhd
+Z1 w1749835715
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dD:/TKLS_baitap/THI/bai4_sosanh1785
+Z6 8sosanh7485.vhd
+Z7 Fsosanh7485.vhd
 l0
 L5
-VhC3<S[DlSZ[6BAmGDmJEN3
-!s100 K^@i=jc=bKALABMkVHnS_1
-Z7 OL;C;10.5;63
+Vo9EMmEeM[AfB]Wm@li=Db2
+!s100 `FdK[adgP?bF]HSR5P8oH2
+Z8 OL;C;10.5;63
 32
-Z8 !s110 1749806834
+Z9 !s110 1749835813
 !i10b 1
-Z9 !s108 1749806834.000000
-Z10 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai4_sosanh1785/sosanh7485.vhd|
-Z11 !s107 D:/TKLS_baitap/THI/bai4_sosanh1785/sosanh7485.vhd|
+Z10 !s108 1749835813.000000
+Z11 !s90 -reportprogress|300|sosanh7485.vhd|
+Z12 !s107 sosanh7485.vhd|
 !i113 0
-Z12 o-work work
 Z13 tExplicit 1 CvgOpt 0
 Abehavioral
-R1
-R2
-R3
-DEx4 work 10 sosanh7485 0 22 hC3<S[DlSZ[6BAmGDmJEN3
-l15
-L14
-VCgk5zA2:k_^ABcl>=Y[5A2
-!s100 D1zTz^<H81cBbTg6TogJ<2
-R7
-32
-R8
-!i10b 1
-R9
-R10
-R11
-!i113 0
-R12
-R13
-Esosanh_test
-Z14 w1746808207
-Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z16 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R2
 R3
 R4
-Z17 8D:/TKLS_baitap/THI/bai4_sosanh1785/sosanh_test.vhd
-Z18 FD:/TKLS_baitap/THI/bai4_sosanh1785/sosanh_test.vhd
-l0
-L6
-VL=1M8:U^jY:;mE>i1<I4i1
-!s100 h1TQYQcL[aQ_>JIhD0Y9X2
-R7
+DEx4 work 10 sosanh7485 0 22 o9EMmEeM[AfB]Wm@li=Db2
 32
+R9
+l15
+L14
+V[cHZWkhIol;4d2lhB>?oP3
+!s100 ^XiVZBhB0cbXSmbP5P:>Y3
 R8
 !i10b 1
-R9
-Z19 !s90 -reportprogress|300|-work|work|D:/TKLS_baitap/THI/bai4_sosanh1785/sosanh_test.vhd|
-Z20 !s107 D:/TKLS_baitap/THI/bai4_sosanh1785/sosanh_test.vhd|
-!i113 0
+R10
+R11
 R12
+!i113 0
+R13
+Esosanh_test
+Z14 w1749835805
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z16 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R3
+R4
+R5
+Z17 8sosanh_test.vhd
+Z18 Fsosanh_test.vhd
+l0
+L6
+V5l2d^jb2c8KgSI>9NUZ1l1
+!s100 h1TQYQcL[aQ_>JIhD0Y9X2
+R8
+32
+R9
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|sosanh_test.vhd|
+Z20 !s107 sosanh_test.vhd|
+!i113 0
 R13
 Abehavorial
 R15
 R16
-R2
 R3
-DEx4 work 11 sosanh_test 0 22 L=1M8:U^jY:;mE>i1<I4i1
-l23
-L9
-VEW8b9LUTabJ@n_0beQTM_0
-!s100 <9BW4Md6iH??Kl]SEdz8?2
-R7
+R4
+DEx4 work 11 sosanh_test 0 22 5l2d^jb2c8KgSI>9NUZ1l1
 32
+R9
+l22
+L9
+VTHV5`]Xe886ZM_jzVWg@[0
+!s100 2X4_M@maTWhiYYmc[g`Rf3
 R8
 !i10b 1
-R9
+R10
 R19
 R20
 !i113 0
-R12
 R13

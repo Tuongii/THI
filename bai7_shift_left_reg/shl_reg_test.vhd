@@ -50,17 +50,17 @@ begin
         enable <= '1';
         wait for 60 ns;
         
-        sl <= '0';
-        wait for 60 ns;
-        
-        enable <= '0';
-        wait for 20 ns;
+        sl <= '1'; wait for 10 ns;   -- Dịch 1
+        sl <= '0'; wait for 10 ns;   -- Dịch 0
+        sl <= '1'; wait for 10 ns;   -- Dịch 1
+        sl <= '1'; wait for 10 ns;   -- Dịch 1
+
         
         reset <= '1';
         wait for 20 ns;
         
-        sl <= '0'; reset <= '0';
-        enable <= '1';
+reset <= '0';
+
         wait for 40 ns;
         
         sl <= '1';

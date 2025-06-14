@@ -18,7 +18,7 @@ begin
         variable temp: std_logic_vector(7 downto 0);
     begin 
         value := to_integer(unsigned(bin_code)); -- Chuyển đổi std_logic_vector sang integer
-        temp := (others => '0');
+        temp := (others => '0');--khởi tạo lại giá trị mỗi lần có tín hiệu bin_code thay đổi
         if value > 0 then
             for i in 0 to value - 1 loop -- duyệt qua các giá trị từ bit 0 đến value-1
             

@@ -30,15 +30,20 @@ begin
 end architecture behavior;
 
 --cách 2
--- process(sh_in, sh_val)
---     variable n : integer;
 -- begin
---     n := to_integer(unsigned(sh_val));
---     if n = 0 then
---         sh_out <= sh_in;
---     elsif n < 8 then
---         sh_out <= sh_in(7 downto n) & (others => sh_in(7))(n-1 downto 0);
---     else
---         sh_out <= (others => sh_in(7));
---     end if;
--- end process;
+--     process(sh_in, sh_val)
+--         variable n     : integer;
+--         variable fillv : std_logic_vector(7 downto 0);
+--     begin
+--         n := to_integer(unsigned(sh_val));
+--         fillv := (others => sh_in(7)); -- 8 bit đều bằng MSB
+
+--         if n = 0 then
+--             sh_out <= sh_in;
+--         elsif n < 8 then
+--             -- Lấy 8-n bit cao của sh_in, nối n bit fillv
+--             sh_out <= sh_in(7-n downto 0) & fillv(n-1 downto 0);
+--         else
+--             sh_out <= fillv; -- Nếu n >= 8, toàn bộ là MSB của sh_in
+--         end if;
+--     end process;

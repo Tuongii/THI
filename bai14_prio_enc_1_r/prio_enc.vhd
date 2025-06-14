@@ -20,7 +20,7 @@ begin
         -- Duyệt từ trái sang phải (bit 7 -> 0), gặp '0' đầu tiên thì lưu lại
         for i in 0 to 7 loop
             if i_vector(i) = '1' then
-                pos_temp := std_logic_vector(to_unsigned(i, 3));
+                pos_temp := std_logic_vector(to_unsigned(i, 3));-- Chuyển integer sang std_logic_vector
                 found_temp := '1';
                 exit; -- Ngừng ngay khi gặp '0' đầu tiên
             end if;
